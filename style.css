@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+}
+
+h1 {
+    color: #1a1a2e;
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+p {
+    color: #666;
+    margin-bottom: 25px;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+    transition: border 0.3s;
+}
+
+input:focus {
+    border-color: #0f3460;
+}
+
+#strengthBar {
+    width: 100%;
+    height: 10px;
+    background: #e0e0e0;
+    border-radius: 10px;
+    margin: 20px 0 10px;
+    overflow: hidden;
+}
+
+#strengthFill {
+    height: 100%;
+    width: 0%;
+    border-radius: 10px;
+    transition: all 0.4s ease;
+}
+
+#strengthText {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#tips {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#tips h3 {
+    color: #1a1a2e;
+    margin-bottom: 10px;
+}
+
+#tipsList li {
+    color: #555;
+    margin: 8px 0;
+    padding-left: 10px;
+    font-size: 14px;
+}
